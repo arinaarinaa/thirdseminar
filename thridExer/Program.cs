@@ -16,7 +16,7 @@ void TablCube(int [] x)
     index++;
   }  
 }
-void PrCH(int[] massive)
+void Resuilt(int[] massive)
 {
   int lenght = massive.Length;
   int index = 0;
@@ -29,4 +29,4 @@ void PrCH(int[] massive)
 
 int[] secondmassive = new int[x+1];
 TablCube(secondmassive);
-PrCH(secondmassive);
+Resuilt(secondmassive);
