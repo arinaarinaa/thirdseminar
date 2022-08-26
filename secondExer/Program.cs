@@ -18,4 +18,12 @@ void Proverka(string number)
         Console.WriteLine("не");
     }
 }
-Proverka(number);
+int dlina = number.Length;
+if(dlina == 5)
+{
+    Proverka(number);
+}
+else 
+{
+    Console.WriteLine("Не пятизначное число((");
+}
